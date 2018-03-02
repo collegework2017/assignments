@@ -2,4 +2,3 @@ This is a list of things we need to tackle for project:
 Any more ideas please on this here so we know what to tackle
 
 1. create method to store a new admin in administators file
-2. create 
