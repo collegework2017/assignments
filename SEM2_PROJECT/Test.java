@@ -19,6 +19,12 @@ public class Test {
 			
 			if(username.equalsIgnoreCase("q") || password.equalsIgnoreCase("q")) break;
 			
+			if(username == null && password == null)
+ 				JOptionPane.showMessageDialog(null, "ble ble ble....";
+
+			else if(!(username.matches("(\\w+\\W+)")) || (password.matches("(\\w+\\W+)")))
+ 				JOptionPane.showMessageDialog(null, "ble ble ble....";
+			
 			try {
 				System.out.println((MiscUtils.isValidUser(username, password))
 					? "User is Valid" : "User is invalid");
