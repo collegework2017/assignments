@@ -15,18 +15,18 @@ public class Test {
 			System.out.print("Please Enter password:");
 			password = userInput.nextLine();
 			
-			*//if(username == null && password == null) continue;
+			if(username == null && password == null) continue;
 			
-			//if(username.equalsIgnoreCase("q") || password.equalsIgnoreCase("q")) break;
+			if(username.equalsIgnoreCase("q") || password.equalsIgnoreCase("q")) break;
 			
-			//if(username == null && password == null)
+			*//if(username == null && password == null)
  			//	JOptionPane.showMessageDialog(null, "ble ble ble....";
 
 			//else if(!(username.matches("(\\w+\\W+)")) || (password.matches("(\\w+\\W+)")))
  			//	JOptionPane.showMessageDialog(null, "ble ble ble....";
 			//else
 							      {
-								      //*
+			//*
 			try {
 				System.out.println((MiscUtils.isValidUser(username, password))
 					? "User is Valid" : "User is invalid");
